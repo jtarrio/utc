@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../../assets/Roboto-ExtraBold-subset.ttf) format("opentype");
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.clock {
+  font-size: min(100dvw / 4.5, 100dvh / 1.2);
+  height: 100dvh;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  width: 100dvw;
+}
+
+.date {
+  left: 0;
+  font-size: min(100dvw / 25, 100dvh * 0.15);
+  margin: 0.1em;
+  position: absolute;
+  top: 0;
+}
+
+.info {
+  bottom: 0;
+  font-size: min(100dvw / 84.375, 100dvh / 22.5);
+  margin: 1em;
+  position: absolute;
+  right: 0;
+}

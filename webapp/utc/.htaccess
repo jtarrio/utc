@@ -1,0 +1,2 @@
+Header always set x-time: "%t" "expr=%{REQUEST_URI} =~ m#/204.html$#"
+RedirectMatch 204 "/204.html$"
